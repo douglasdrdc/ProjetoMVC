@@ -2,30 +2,154 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<section class="content-section-a" id="section1">
+    <div class="container">
+        <div style="margin-top: 20px;"></div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 text-center">
+                <h3>
+                    <span style="color: #61d2d6;">COMO FUNCIONA</span>
+                    <span style="color: #b4b1b1;">PARA VOCÊ CLIENTE</span>
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-xs-5"><hr style="background-color: #61d2d6;" /></div>
+                <div class="col-md-2 col-xs-2 text-center"><i class="glyphicon glyphicon-star" style="color: #61d2d6;"></i></div>
+                <div class="col-md-5 col-xs-5"><hr style="background-color: #61d2d6;" /></div>
+            </div>
+            <br /><br />
+            <div class="col-sm-4 col-md-4 divide">
+                <div class="text-center">
+                    <div align="center">
+                        @*<img src="~/Images/Diversas/Samrtphone.png" class="img-responsive" style="max-width: 120px;">*@
+                        <i class="material-icons" style="font-size: 48px; color: #61d2d6;">settings_cell</i>
+                    </div>
+                    <div class="caption">
+                        <h3>
+                            <span style="color: #464646;">FAÇA SEU</span>
+                            <span style="color: #00acc1;">CADASTRO</span>
+                        </h3>
+                        <h4>Cadastre-se gratuitamente em menos 2 minutos</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4 divide">
+                <div class="text-center">
+                    <div align="center">
+                        @*<img src="~/Images/Diversas/Favorite.png" class="img-responsive" style="max-width: 120px;">*@
+                        <i class="material-icons" style="font-size: 48px; color: #ed146f;">stars</i>
+                    </div>
+                    <div class="caption">
+                        <h3>
+                            <span style="color: #464646;">SUAS</span>
+                            <span style="color: #ed146f;">PREFERÊNCIAS</span>
+                        </h3>
+                        <h4>Informe suas preferências de Produtos e Marcas</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4 divide">
+                <div class="text-center">
+                    <div align="center">
+                        @*<img src="~/Images/Diversas/Cesta.png" class="img-responsive" style="max-width: 120px;">*@
+                        <i class="material-icons" style="font-size: 48px; color: #e9ba52;">person_pin</i>
+                    </div>
+                    <div class="caption">
+                        <h3>
+                            <span style="color: #464646;">PROMOÇÕES</span>
+                            <span style="color: #e9ba52;">EXCLUSIVAS</span>
+                        </h3>
+                        <h4>Receba promoções “Exclusivas para Você” dos seus mercados favoritos</h4>
+                    </div>
+                </div>
+            </div>
+        </div><br />
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+</section>
+
+<section class="content-section-b" id="section2">
+    <div class="container">
+        <div class="row text-center">
+            <br />
+            <div class="col-md-8 col-md-offset-2">
+                <h3>Quer receber promoções “Feitas para Você” dos seus mercados favoritos?</h3>
+                <div>
+                    <h4>Faça parte deste novo conceito, onde você informa a seus mercados preferidos, quais produtos são realmente importantes para você, a fim de receber promoções exclusivas baseadas em suas preferências e no momento em que você realmente precisa delas!</h4>
+                </div>
+                <a href="@Url.Action("AceiteCadastro", "Cliente")" class="btn btn-default btn-raised btn-lg"
+                   style="background-color: rgba(255, 255, 255, 0.05); color: #ffffff; border: 2px solid #ffffff;">
+                    CADASTRE-SE
+                </a>
+            </div>
+        </div>
+        <br />
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+</section>
+
+<section class="content-section-c" id="section3">
+    <div class="container">
+        <div style="margin-top: 20px;"></div>
+
+        <div class="row">
+            <div class="col-sm-12 col-md-12 text-center">
+                <h3>
+                    <span style="color: #61d2d6;">COMO FUNCIONA</span>
+                    <span style="color: #b4b1b1;">PARA VOCÊ CLIENTE</span>
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-xs-5"><hr style="background-color: #61d2d6;" /></div>
+                <div class="col-md-2 col-xs-2 text-center"><i class="glyphicon glyphicon-star" style="color: #61d2d6;"></i></div>
+                <div class="col-md-5 col-xs-5"><hr style="background-color: #61d2d6;" /></div>
+            </div>
+            <br /><br />
+            <div class="col-sm-4 col-md-4 divide">
+                <div class="text-center">
+                    <div align="center">
+                        @*<img src="~/Images/Diversas/Samrtphone.png" class="img-responsive" style="max-width: 120px;">*@
+                        <i class="material-icons" style="font-size: 48px; color: #ffffff;">settings_cell</i>
+                    </div>
+                    <div class="caption">
+                        <h3>
+                            <span style="color: #ffffff;">FAÇA SEU</span>
+                            <span style="color: #00acc1;">CADASTRO</span>
+                        </h3>
+                        <h4>Cadastre-se gratuitamente em menos 2 minutos</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4 divide">
+                <div class="text-center">
+                    <div align="center">
+                        @*<img src="~/Images/Diversas/Favorite.png" class="img-responsive" style="max-width: 120px;">*@
+                        <i class="material-icons" style="font-size: 48px; color: #ffffff;">stars</i>
+                    </div>
+                    <div class="caption">
+                        <h3>
+                            <span style="color: #ffffff;">SUAS</span>
+                            <span style="color: #00acc1;">PREFERÊNCIAS</span>
+                        </h3>
+                        <h4>Informe suas preferências de Produtos e Marcas</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4 divide">
+                <div class="text-center">
+                    <div align="center">
+                        @*<img src="~/Images/Diversas/Cesta.png" class="img-responsive" style="max-width: 120px;">*@
+                        <i class="material-icons" style="font-size: 48px; color: #ffffff;">person_pin</i>
+                    </div>
+                    <div class="caption">
+                        <h3>
+                            <span style="color: #ffffff;">PROMOÇÕES</span>
+                            <span style="color: #00acc1;">EXCLUSIVAS</span>
+                        </h3>
+                        <h4>Receba promoções “Exclusivas para Você” dos seus mercados favoritos</h4>
+                    </div>
+                </div>
+            </div>
+        </div><br />
     </div>
-</div>
+</section>
+

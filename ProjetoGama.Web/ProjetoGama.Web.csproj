@@ -175,7 +175,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\Fonte\HarabaraMaisDemo.otf" />
+    <Content Include="fonts\HarabaraMaisDemo.otf" />
     <None Include="Properties\PublishProfiles\ProjetoGamaWeb - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\ProjetoGamaWeb - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />

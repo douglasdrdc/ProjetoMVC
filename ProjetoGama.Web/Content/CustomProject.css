@@ -2,7 +2,7 @@
 /* Fonte Externa Google */
 @font-face {
     font-family: 'HarabaraMaisDemo';
-    src: url('Fonte/HarabaraMaisDemo.otf') format('opentype');
+    src: url('../fonts/HarabaraMaisDemo.otf') format('opentype');
 }
 
 
